@@ -1,0 +1,28 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color:aqua
+}
+
+h2 {
+color: rgb(113, 174, 28);
+}
+
+.box{
+    color: rgb(19, 19, 3);
+   background-color: aqua;
+width: 500px;
+height: 50vh;
+
+}
+
+.inside-box{
+    color: rgb(19, 19, 3);
+   background-color: rgb(85, 213, 50);
+width: 50vw;
+height: 25vh;
+
+
+}
