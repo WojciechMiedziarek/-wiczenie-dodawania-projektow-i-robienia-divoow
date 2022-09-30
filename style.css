@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(132, 102, 159);
+    background-color: rgb(173, 195, 196);
 }
 
 h1 {
@@ -13,23 +13,43 @@ color: rgb(113, 174, 28);
 .box{
     color: rgb(19, 19, 3);
    background-color: rgb(127, 197, 241);
-   width: 100px;
-   height: 50px;
+   width: 400px;
+   height: 400px;
    overflow: auto;
-   padding: 20px 40px 60px 80px;
-   border: 10px solid rgb(239, 224, 15);
-   border-radius: 100px;
-   margin:10px auto;
-  
-   
+   padding: 30px 60px;
+   border: 10px solid rgb(21, 74, 78);
+ 
+   margin: 10px auto;
+   box-sizing: border-box;
+   position:relative;
+   top: 50px;
+right: 20px;
+
 
 }
 
-.inside-box{
+.inside-box1{
     color: rgb(19, 19, 3);
    background-color: rgb(85, 213, 50);
-width: 50px;
-height: 25px;
+width: 100px;
+height: 100px;
 overflow: auto;
+position:absolute;
+
+top: 40px;
+left: 35px;
+
+}
+
+.inside-box2{
+    color: rgb(85, 213, 50);
+   background-color: rgb(1, 3, 0);
+width: 100px;
+height: 100px;
+overflow: auto;
+position:fixed;
+
+top: 40px;
+right: 35px;
 
 }
