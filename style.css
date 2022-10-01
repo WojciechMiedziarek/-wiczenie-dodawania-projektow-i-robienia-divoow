@@ -13,43 +13,70 @@ color: rgb(113, 174, 28);
 .box{
     color: rgb(19, 19, 3);
    background-color: rgb(127, 197, 241);
+
    width: 400px;
    height: 400px;
-   overflow: auto;
    padding: 30px 60px;
    border: 10px solid rgb(21, 74, 78);
- 
+   margin: 10px auto;
+   box-sizing: border-box;
+   position:relative;
+   top: 50px;
+left: 20px;
+float:left;
+}
+
+
+.inside-box1{
+
+color: rgb(85, 213, 50);
+background-color: rgb(1, 3, 0);
+width: 100%;
+height: 20px;
+overflow: auto;
+position:fixed;
+bottom: 20px;
+right: 0px;
+}
+
+
+.box1{
+    color: rgb(19, 19, 3);
+   background-color: rgb(232, 164, 223);
+   width: 400px;
+   height: 400px;
+   padding: 30px 60px;
+   border: 10px solid rgb(21, 74, 78);
    margin: 10px auto;
    box-sizing: border-box;
    position:relative;
    top: 50px;
 right: 20px;
-
-
-}
-
-.inside-box1{
-    color: rgb(19, 19, 3);
-   background-color: rgb(85, 213, 50);
-width: 100px;
-height: 100px;
-overflow: auto;
-position:absolute;
-
-top: 40px;
-left: 35px;
-
+float: right;
 }
 
 .inside-box2{
-    color: rgb(85, 213, 50);
-   background-color: rgb(1, 3, 0);
+ color: rgb(19, 19, 3);
+ background-color: rgb(85, 213, 50);
 width: 100px;
 height: 100px;
 overflow: auto;
-position:fixed;
-
-top: 40px;
-right: 35px;
+position: sticky;
+top: 5px;
+left: 1px;
 
 }
+
+.inside-box3{
+    color: rgb(19, 19, 3);
+    background-color: rgb(179, 139, 240);
+   width: 150px;
+   height: 150px;
+   overflow: auto;
+   position: sticky;
+   left: 10px;
+   top: 5px;
+ 
+
+  
+   }
